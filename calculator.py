@@ -5,9 +5,9 @@ def sub(a,b):
 def multiply(a,b):
     return a*b
 def divide(a,b):
-    if a!=0:
+     if a!=0: 
         return a/b
-    else:
+     else:
         return "error: cannot divide by zero."
 
 def calculator():
@@ -22,13 +22,13 @@ num1=float(input("enter first number:"))
 num2=float(input("enter second number:"))
 operation=input("select operation(add/sub/multiply/divide):")
 
-if operation == add:
+if operation == "add":
     result = add (num1,num2)
-elif operation == sub:
+elif operation == "sub":
     result = sub (num1 ,num2)
-elif operation == multiply:
+elif operation ==" multiply":
      result= multiply (num1 ,num2)
-elif operation == divide:
+elif operation == "divide":
     result= divide(num1,num2)
 else:
     result="error: invalid operation."
